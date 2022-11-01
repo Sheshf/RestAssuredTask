@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "aemEnabled": {
+      "type": "boolean"
+    },
+    "aemFnLnEnabled": {
+      "type": "boolean"
+    },
+    "aemPhEnabled": {
+      "type": "boolean"
+    },
+    "aemGeEnabled": {
+      "type": "boolean"
+    },
+    "aemDbEnabled": {
+      "type": "boolean"
+    },
+    "aemLocEnabled": {
+      "type": "boolean"
+    },
+    "ctEpikIframeEnabled": {
+      "type": "boolean"
+    },
+    "chromeNewUserAgentEnabled": {
+      "type": "boolean"
+    },
+    "isEu": {
+      "type": "boolean"
+    },
+    "isUtilizingAdvertiser1pEnabled": {
+      "type": "boolean"
+    },
+    "mdFrequency": {
+      "type": "number"
+    },
+    "ecmOriginTrialToken": {
+      "type": "string"
+    },
+    "piaaEndPoint": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "aemEnabled",
+    "aemFnLnEnabled",
+    "aemPhEnabled",
+    "aemGeEnabled",
+    "aemDbEnabled",
+    "aemLocEnabled",
+    "ctEpikIframeEnabled",
+    "chromeNewUserAgentEnabled",
+    "isEu",
+    "isUtilizingAdvertiser1pEnabled",
+    "mdFrequency",
+    "ecmOriginTrialToken",
+    "piaaEndPoint"
+  ]
+}
